@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo | La Cremé</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,500;0,700;1,700&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/catalogo.css">
+    <link rel="icon" href="../favicon/lacremé.png.png">
+</head>
+<body>
+<header class="cabecera">
+    <a class="logo" href="../index.html">
+        <img src="../img/la cremé.png" alt="Logo de La Cremé">
+    </a>
+    <div class="centro">
+        <h1>La Cremé</h1>
+        <p class="lema">Postres caseros para la comunidad de San Martín de Porres</p>
+    </div>
+    <nav class="menu" aria-label="Principal">
+        <a href="../index.html">Inicio</a>
+        <a href="catalogo.html" class="activo">Catálogo</a>
+        <a href="nosotros.html">Nosotros</a>
+        <a href="contacto.html">Contacto</a>
+    </nav>
+</header>
+<main>
+    <div class="filtros" role="group" aria-label="Categorías">
+        <a class="filtro activo" href="catalogo.html" aria-current="page">General</a>
+        <a class="filtro" href="galletas.html">Galletas</a>
+        <a class="filtro" href="cupcakes.html">Cupcakes</a>
+        <a class="filtro" href="cheescakes.html">Cheesecake</a>
+        <a class="filtro" href="tortas.html">Tortas y Empanadas</a>
+    </div>
+    <section class="productos">
+        <article class="producto" data-categoria="tortas" data-nombre="Torta de chocolate" data-precio="50">
+            <div class="foto"><img src="../img/torta.jpg" alt="Torta de chocolate" loading="lazy"></div>
+            <h3>Torta de chocolate</h3>
+            <p class="desc">Torta de chocolate con crema y decoración artesanal.</p>
+            <strong class="precio">S/ 50.00</strong>
+            <div class="cantidad">
+                <button type="button" class="menos" aria-label="Quitar una Torta de chocolate">−</button>
+                <input class="num" type="number" min="0" max="99" value="0" inputmode="numeric" aria-label="Cantidad de Torta de chocolate">
+                <button type="button" class="mas" aria-label="Agregar una Torta de chocolate">+</button>
+            </div>
+            <p class="subtotal">Subtotal: S/ 0.00</p>
+        </article>
+        <article class="producto" data-categoria="cupcakes" data-nombre="Cupcakes" data-precio="9">
+            <div class="foto"><img src="../img/Cupcakes.webp" alt="Cupcakes" loading="lazy"></div>
+            <h3>Cupcakes</h3>
+            <p class="desc">Bizcocho húmedo de chocolate, relleno de fudge y cubierto con una cremosa decoración de chocolate.</p>
+            <strong class="precio">S/ 9.00</strong>
+            <div class="cantidad">
+                <button type="button" class="menos" aria-label="Quitar un Cupcake">−</button>
+                <input class="num" type="number" min="0" max="99" value="0" inputmode="numeric" aria-label="Cantidad de Cupcakes">
+                <button type="button" class="mas" aria-label="Agregar un Cupcake">+</button>
+            </div>
+            <p class="subtotal">Subtotal: S/ 0.00</p>
+        </article>
+        <article class="producto" data-categoria="tortas" data-nombre="Empanaditas de pollo (caja de 24)" data-precio="18">
+            <div class="foto"><img src="../img/empanada de pollo.jpg" alt="Empanaditas de pollo" loading="lazy"></div>
+            <h3>Empanaditas de pollo</h3>
+            <p class="desc">Caja de 24 empanadas pequeñas de pollo para eventos.</p>
+            <strong class="precio">S/ 18.00</strong>
+            <div class="cantidad">
+                <button type="button" class="menos" aria-label="Quitar una caja de empanaditas">−</button>
+                <input class="num" type="number" min="0" max="99" value="0" inputmode="numeric" aria-label="Cantidad de cajas de empanaditas">
+                <button type="button" class="mas" aria-label="Agregar una caja de empanaditas">+</button>
+            </div>
+            <p class="subtotal">Subtotal: S/ 0.00</p>
+        </article>
+        <article class="producto" data-categoria="galletas" data-nombre="Galletas de avena y miel" data-precio="2.5">
+            <div class="foto"><img src="../img/galletas de miel.jpg" alt="Galletas de avena y miel" loading="lazy"></div>
+            <h3>Galletas de avena y miel</h3>
+            <p class="desc">Deliciosa galleta elaborada con avena y miel, de textura suave y un dulce sabor natural.</p>
+            <strong class="precio">S/ 2.50</strong>
+            <div class="cantidad">
+                <button type="button" class="menos" aria-label="Quitar una Galleta de avena y miel">−</button>
+                <input class="num" type="number" min="0" max="99" value="0" inputmode="numeric" aria-label="Cantidad de Galletas de avena y miel">
+                <button type="button" class="mas" aria-label="Agregar una Galleta de avena y miel">+</button>
+            </div>
+            <p class="subtotal">Subtotal: S/ 0.00</p>
+        </article>
+        <article class="producto" data-categoria="cheesecakes" data-nombre="Cheesecake de fresa" data-precio="35">
+            <div class="foto"><img src="../img/chesscakes.webp" alt="Cheesecake de fresa" loading="lazy"></div>
+            <h3>Cheesecake de fresa</h3>
+            <p class="desc">Cremoso cheesecake con salsa de fresa y fresas frescas.</p>
+            <strong class="precio">S/ 35.00</strong>
+            <div class="cantidad">
+                <button type="button" class="menos" aria-label="Quitar un Cheesecake de fresa">−</button>
+                <input class="num" type="number" min="0" max="99" value="0" inputmode="numeric" aria-label="Cantidad de Cheesecake de fresa">
+                <button type="button" class="mas" aria-label="Agregar un Cheesecake de fresa">+</button>
+            </div>
+            <p class="subtotal">Subtotal: S/ 0.00</p>
+        </article>
+        <article class="producto" data-categoria="galletas" data-nombre="Galleta de triple chocolate" data-precio="4">
+            <div class="foto"><img src="../img/galleta triple chocolate.jpg" alt="Galleta de triple chocolate" loading="lazy"></div>
+            <h3>Galleta de triple chocolate</h3>
+            <p class="desc">Intensa y deliciosa galleta de chocolate con trozos de chocolate blanco y chocolate con leche. Perfecta para los verdaderos amantes del chocolate.</p>
+            <strong class="precio">S/ 4.00</strong>
+            <div class="cantidad">
+                <button type="button" class="menos" aria-label="Quitar una Galleta de triple chocolate">−</button>
+                <input class="num" type="number" min="0" max="99" value="0" inputmode="numeric" aria-label="Cantidad de Galleta de triple chocolate">
+                <button type="button" class="mas" aria-label="Agregar una Galleta de triple chocolate">+</button>
+            </div>
+            <p class="subtotal">Subtotal: S/ 0.00</p>
+        </article>
+    </section>
+</main>
+<aside class="presupuesto" aria-label="Tu presupuesto">
+    <div class="presupuesto-info">
+        <span class="presupuesto-items">0 productos</span>
+        <strong class="presupuesto-total">Total: S/ 0.00</strong>
+    </div>
+    <div class="presupuesto-botones">
+        <button type="button" class="vaciar">Vaciar</button>
+        <a class="boton pedir" href="#" aria-disabled="true">Pedir por WhatsApp</a>
+    </div>
+</aside>
+
+<footer>
+    <p>© 2026 La Cremé pastelería. Hechos a mano artesanal</p>
+</footer>
+<script src="../js/catalogo.js"></script>
+</body>
+</html>

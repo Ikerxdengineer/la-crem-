@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galletas | La Cremé</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,500;0,700;1,700&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/galletas.css">
+    <link rel="icon" href="../favicon/lacremé.png.png">
+</head>
+<body>
+<header class="cabecera">
+    <a class="logo" href="../index.html">
+        <img src="../img/la cremé.png" alt="Logo de La Cremé">
+    </a>
+    <div class="centro">
+        <h1>La Cremé</h1>
+        <p class="lema">Postres caseros para la comunidad de San Martín de Porres</p>
+    </div>
+    <nav class="menu" aria-label="Principal">
+        <a href="../index.html">Inicio</a>
+        <a href="catalogo.html" class="activo">Catálogo</a>
+        <a href="nosotros.html">Nosotros</a>
+        <a href="contacto.html">Contacto</a>
+    </nav>
+</header>
+<main>
+    <div class="filtros" role="group" aria-label="Categorías">
+        <a class="filtro" href="catalogo.html">General</a>
+        <a class="filtro activo" href="galletas.html" aria-current="page">Galletas</a>
+        <a class="filtro" href="cupcakes.html">Cupcakes</a>
+        <a class="filtro" href="cheescakes.html">Cheesecake</a>
+        <a class="filtro" href="tortas.html">Tortas y Empanadas</a>
+    </div>
+    <section class="productos">
+        <article class="producto" data-categoria="galletas" data-nombre="Galletas de vainilla" data-precio="2">
+            <div class="foto"><img src="../img/galleta vainilla1.jpg" alt="Galletas de vainilla" loading="lazy"></div>
+            <h3>Galletas de vainilla</h3>
+            <p class="desc">Suave, dulce y aromática, con un delicado sabor a vainilla.</p>
+            <strong class="precio">S/ 2.00</strong>
+            <div class="cantidad">
+                <button type="button" class="menos" aria-label="Quitar una Galleta de vainilla">−</button>
+                <input class="num" type="number" min="0" max="99" value="0" inputmode="numeric" aria-label="Cantidad de Galletas de vainilla">
+                <button type="button" class="mas" aria-label="Agregar una Galleta de vainilla">+</button>
+            </div>
+            <p class="subtotal">Subtotal: S/ 0.00</p>
+        </article>
+        <article class="producto" data-categoria="galletas" data-nombre="Galletas de mantequilla" data-precio="2">
+            <div class="foto"><img src="../img/galleta mantequilla.jpg" alt="Galletas de mantequilla" loading="lazy"></div>
+            <h3>Galletas de mantequilla</h3>
+            <p class="desc">Crujiente y delicada, preparada con mantequilla para un sabor casero.</p>
+            <strong class="precio">S/ 2.00</strong>
+            <div class="cantidad">
+                <button type="button" class="menos" aria-label="Quitar una Galleta de mantequilla">−</button>
+                <input class="num" type="number" min="0" max="99" value="0" inputmode="numeric" aria-label="Cantidad de Galletas de mantequilla">
+                <button type="button" class="mas" aria-label="Agregar una Galleta de mantequilla">+</button>
+            </div>
+            <p class="subtotal">Subtotal: S/ 0.00</p>
+        </article>
+        <article class="producto" data-categoria="galletas" data-nombre="Galletas con chispas de chocolate" data-precio="2.5">
+            <div class="foto"><img src="../img/galle chispa de chocolate.jpeg" alt="Galletas con chispas de chocolate" loading="lazy"></div>
+            <h3>Galletas con chispas de chocolate</h3>
+            <p class="desc">Galleta suave con abundantes chispas de chocolate.</p>
+            <strong class="precio">S/ 2.50</strong>
+            <div class="cantidad">
+                <button type="button" class="menos" aria-label="Quitar una Galleta con chispas de chocolate">−</button>
+                <input class="num" type="number" min="0" max="99" value="0" inputmode="numeric" aria-label="Cantidad de Galletas con chispas de chocolate">
+                <button type="button" class="mas" aria-label="Agregar una Galleta con chispas de chocolate">+</button>
+            </div>
+            <p class="subtotal">Subtotal: S/ 0.00</p>
+        </article>
+        <article class="producto" data-categoria="galletas" data-nombre="Galleta de chocolate blanco" data-precio="3.5">
+            <div class="foto"><img src="../img/galleta chocolate blanco.jpeg" alt="Galleta de chocolate blanco" loading="lazy"></div>
+            <h3>Galleta de chocolate blanco</h3>
+            <p class="desc">Suave y deliciosa galleta con trozos de chocolate blanco, perfecta para quienes prefieren un sabor dulce y cremoso.</p>
+            <strong class="precio">S/ 3.50</strong>
+            <div class="cantidad">
+                <button type="button" class="menos" aria-label="Quitar una Galleta de chocolate blanco">−</button>
+                <input class="num" type="number" min="0" max="99" value="0" inputmode="numeric" aria-label="Cantidad de Galleta de chocolate blanco">
+                <button type="button" class="mas" aria-label="Agregar una Galleta de chocolate blanco">+</button>
+            </div>
+            <p class="subtotal">Subtotal: S/ 0.00</p>
+        </article>
+        <article class="producto" data-categoria="galletas" data-nombre="Galleta de triple chocolate" data-precio="4">
+            <div class="foto"><img src="../img/galleta triple chocolate.jpg" alt="Galleta de triple chocolate" loading="lazy"></div>
+            <h3>Galleta de triple chocolate</h3>
+            <p class="desc">Intensa y deliciosa galleta de chocolate con trozos de chocolate blanco y chocolate con leche. Perfecta para los verdaderos amantes del chocolate.</p>
+            <strong class="precio">S/ 4.00</strong>
+            <div class="cantidad">
+                <button type="button" class="menos" aria-label="Quitar una Galleta de triple chocolate">−</button>
+                <input class="num" type="number" min="0" max="99" value="0" inputmode="numeric" aria-label="Cantidad de Galleta de triple chocolate">
+                <button type="button" class="mas" aria-label="Agregar una Galleta de triple chocolate">+</button>
+            </div>
+            <p class="subtotal">Subtotal: S/ 0.00</p>
+        </article>
+        <article class="producto" data-categoria="galletas" data-nombre="Galletas de avena y miel" data-precio="2.5">
+            <div class="foto"><img src="../img/galleta vainilla1.jpg" alt="Galletas de avena y miel" loading="lazy"></div>
+            <h3>Galletas de avena y miel</h3>
+            <p class="desc">Deliciosa galleta elaborada con avena y miel, de textura suave y un dulce sabor natural.</p>
+            <strong class="precio">S/ 2.50</strong>
+            <div class="cantidad">
+                <button type="button" class="menos" aria-label="Quitar una Galleta de avena y miel">−</button>
+                <input class="num" type="number" min="0" max="99" value="0" inputmode="numeric" aria-label="Cantidad de Galletas de avena y miel">
+                <button type="button" class="mas" aria-label="Agregar una Galleta de avena y miel">+</button>
+            </div>
+            <p class="subtotal">Subtotal: S/ 0.00</p>
+        </article>
+    </section>
+</main>
+<aside class="presupuesto" aria-label="Tu presupuesto">
+    <div class="presupuesto-info">
+        <span class="presupuesto-items">0 productos</span>
+        <strong class="presupuesto-total">Total: S/ 0.00</strong>
+    </div>
+    <div class="presupuesto-botones">
+        <button type="button" class="vaciar">Vaciar</button>
+        <a class="boton pedir" href="#" aria-disabled="true">Pedir por WhatsApp</a>
+    </div>
+</aside>
+
+<footer>
+    <p>© 2026 La Cremé pastelería. Hechos a mano artesanal</p>
+</footer>
+<script src="../js/catalogo.js"></script>
+</body>
+</html>

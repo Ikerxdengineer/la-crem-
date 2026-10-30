@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nosotros | La Cremé</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,500;0,700;1,700&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/nosotros.css">
+    <link rel="icon" href="../favicon/lacremé.png.png">
+</head>
+<body>
+<svg class="sprites" width="0" height="0" aria-hidden="true">
+    <symbol id="petalo" viewBox="0 0 100 100">
+        <ellipse cx="50" cy="24" rx="14" ry="22"/>
+    </symbol>
+    <symbol id="flor" viewBox="0 0 100 100">
+        <g fill="#c4524e">
+            <use href="#petalo"/>
+            <use href="#petalo" transform="rotate(72 50 50)"/>
+            <use href="#petalo" transform="rotate(144 50 50)"/>
+            <use href="#petalo" transform="rotate(216 50 50)"/>
+            <use href="#petalo" transform="rotate(288 50 50)"/>
+        </g>
+        <circle cx="50" cy="50" r="11" fill="#fff"/>
+    </symbol>
+    <symbol id="rama" viewBox="0 0 60 150">
+        <path d="M30 148C30 100 26 50 34 6" fill="none" stroke="#e0735a" stroke-width="3"/>
+        <g fill="#e0735a">
+            <ellipse cx="18" cy="100" rx="9" ry="18" transform="rotate(-30 18 100)"/>
+            <ellipse cx="44" cy="75" rx="9" ry="18" transform="rotate(30 44 75)"/>
+            <ellipse cx="18" cy="48" rx="9" ry="18" transform="rotate(-30 18 48)"/>
+            <ellipse cx="36" cy="14" rx="7" ry="13"/>
+        </g>
+    </symbol>
+</svg>
+
+<header class="cabecera">
+    <a class="logo" href="../index.html">
+        <img src="../img/la cremé.png" alt="Logo de La Cremé">
+    </a>
+    <h1>¿Quiénes somos?</h1>
+    <nav class="menu" aria-label="Principal">
+        <a href="../index.html">Inicio</a>
+        <a href="catalogo.html">Catálogo</a>
+        <a href="nosotros.html" class="activo">Nosotros</a>
+        <a href="contacto.html">Contacto</a>
+    </nav>
+</header>
+
+<main>
+    <svg class="decor flor-1" viewBox="0 0 100 100" aria-hidden="true"><use href="#flor"/></svg>
+    <svg class="decor flor-2" viewBox="0 0 100 100" aria-hidden="true"><use href="#flor"/></svg>
+    <svg class="decor flor-3" viewBox="0 0 100 100" aria-hidden="true"><use href="#flor"/></svg>
+    <svg class="decor flor-4" viewBox="0 0 100 100" aria-hidden="true"><use href="#flor"/></svg>
+    <svg class="decor rama" viewBox="0 0 60 150" aria-hidden="true"><use href="#rama"/></svg>
+
+    <div class="contenido">
+        <div class="texto">
+            <p>Nosotros somos un negocio de repostería que se dedica a la elaboración de tortas temáticas personalizadas y postres artesanales.</p>
+            <p>Nos encontramos ubicados en el distrito de San Martín de Porres.</p>
+
+            <div class="iconos" aria-hidden="true">
+                <span>
+                    <svg viewBox="0 0 64 64" width="26" height="26">
+                        <path d="M14 30h36v22H14z"/>
+                        <path d="M32 8v8M20 30v-6h24v6"/>
+                    </svg>
+                </span>
+                <span>
+                    <svg viewBox="0 0 64 64" width="26" height="26">
+                        <path d="M32 54C10 38 8 26 14 19c5-6 14-5 18 2 4-7 13-8 18-2 6 7 4 19-18 35z"/>
+                    </svg>
+                </span>
+                <span>
+                    <svg viewBox="0 0 64 64" width="26" height="26">
+                        <path d="M20 30c-4 0-6-4-4-7 2-4 7-3 9-6 2-4 8-4 10 0 3 2 8 1 9 6 1 3-1 7-5 7z"/>
+                        <path d="M17 30h30l-4 22H21z"/>
+                    </svg>
+                </span>
+            </div>
+            <div class="tarjetas">
+                <section class="tarjeta">
+                    <h2>Establecimientos</h2>
+                    <p>📍 <a href="https://www.google.com/maps/search/?api=1&query=Av.+Jos%C3%A9+Granda+3443%2C+San+Mart%C3%ADn+de+Porres%2C+Lima" target="_blank" rel="noopener">Av. José Granda 3443, San Martín</a></p>
+                    <p>📍 <a href="https://www.google.com/maps/search/?api=1&query=Av.+Universitaria+302%2C+San+Mart%C3%ADn+de+Porres%2C+Lima" target="_blank" rel="noopener">Av. Universitaria 302, San Martín de Porres 15103</a></p>
+                </section>
+                <section class="tarjeta">
+                    <h2>Horario de atención:</h2>
+                    <p><strong>Horario de atención:</strong> Todos los días.</p>
+                    <p>de 12:00 p. m. a 9:00 p. m.</p>
+                </section>
+            </div>
+        </div>
+        <figure class="foto">
+            <img src="../img/imagen cremé.webp" alt="Fachada del local de La Cremé">
+        </figure>
+    </div>
+</main>
+<footer>
+    <p>© 2026 La Cremé pastelería. Hechos a mano artesanal</p>
+</footer>
+</body>
+</html>

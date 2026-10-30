@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tortas y Empanadas | La Cremé</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,500;0,700;1,700&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/tortas-empanadas.css">
+    <link rel="icon" href="../favicon/lacremé.png.png">
+    <script defer src="../js/tortas-empanadas.js"></script>
+</head>
+<body>
+<header class="cabecera">
+    <a class="logo" href="../index.html">
+        <img src="../img/la cremé.png" alt="Logo de La Cremé">
+    </a>
+    <div class="centro">
+        <h1>La Cremé</h1>
+        <p class="lema">Postres caseros para la comunidad de San Martín de Porres</p>
+    </div>
+    <nav class="menu" aria-label="Principal">
+        <a href="../index.html">Inicio</a>
+        <a href="catalogo.html" class="activo">Catálogo</a>
+        <a href="nosotros.html">Nosotros</a>
+        <a href="contacto.html">Contacto</a>
+    </nav>
+</header>
+<main>
+    <div class="filtros" role="group" aria-label="Categorías">
+        <a class="filtro" href="catalogo.html">General</a>
+        <a class="filtro" href="galletas.html">Galletas</a>
+        <a class="filtro" href="cupcakes.html">Cupcakes</a>
+        <a class="filtro" href="cheescakes.html">Cheesecake</a>
+        <a class="filtro activo" href="tortas.html" aria-current="page">Tortas y Empanadas</a>
+    </div>
+    <section class="productos">
+        <article class="producto" data-categoria="tortas" data-nombre="Torta de chocolate" data-precio="50">
+            <div class="foto"><img src="../img/torta de chocolate.webp" alt="Torta de chocolate" loading="lazy"></div>
+            <h3>Torta de chocolate</h3>
+            <p class="desc">Torta de chocolate con crema y decoración artesanal.</p>
+            <strong class="precio">S/ 50.00</strong>
+            <div class="cantidad">
+                <button type="button" class="menos" aria-label="Quitar una Torta de chocolate">−</button>
+                <input class="num" type="number" min="0" max="99" value="0" inputmode="numeric" aria-label="Cantidad de Torta de chocolate">
+                <button type="button" class="mas" aria-label="Agregar una Torta de chocolate">+</button>
+            </div>
+            <p class="subtotal">Subtotal: S/ 0.00</p>
+        </article>
+        <article class="producto" data-categoria="tortas" data-nombre="Torta para cumpleaños" data-precio="67">
+            <div class="foto"><img src="../img/torta 67.jpg" alt="Torta para cumpleaños" loading="lazy"></div>
+            <h3>Torta para cumpleaños</h3>
+            <p class="desc">Torta para cumpleaños con temática infantil, decorada a tu gusto.</p>
+            <strong class="precio">S/ 67.00</strong>
+            <div class="cantidad">
+                <button type="button" class="menos" aria-label="Quitar una Torta para cumpleaños">−</button>
+                <input class="num" type="number" min="0" max="99" value="0" inputmode="numeric" aria-label="Cantidad de Torta para cumpleaños">
+                <button type="button" class="mas" aria-label="Agregar una Torta para cumpleaños">+</button>
+            </div>
+            <p class="subtotal">Subtotal: S/ 0.00</p>
+        </article>
+        <article class="producto" data-categoria="tortas" data-nombre="Torta temática" data-precio="32">
+            <div class="foto"><img src="../img/torta bimbo.jpg" alt="Torta temática" loading="lazy"></div>
+            <h3>Torta temática</h3>
+            <p class="desc">Torta temática de empresa, personalizada con el diseño que prefieras.</p>
+            <strong class="precio">S/ 32.00</strong>
+            <div class="cantidad">
+                <button type="button" class="menos" aria-label="Quitar una Torta temática">−</button>
+                <input class="num" type="number" min="0" max="99" value="0" inputmode="numeric" aria-label="Cantidad de Torta temática">
+                <button type="button" class="mas" aria-label="Agregar una Torta temática">+</button>
+            </div>
+            <p class="subtotal">Subtotal: S/ 0.00</p>
+        </article>
+        <article class="producto" data-categoria="tortas" data-nombre="Empanaditas de pollo (caja de 24)" data-precio="18">
+            <div class="foto"><img src="../img/empanada de pollo.jpg" alt="Empanaditas de pollo" loading="lazy"></div>
+            <h3>Empanaditas de pollo</h3>
+            <p class="desc">Caja de 24 empanadas pequeñas de pollo para eventos.</p>
+            <strong class="precio">S/ 18.00</strong>
+            <div class="cantidad">
+                <button type="button" class="menos" aria-label="Quitar una caja de empanaditas de pollo">−</button>
+                <input class="num" type="number" min="0" max="99" value="0" inputmode="numeric" aria-label="Cantidad de cajas de empanaditas de pollo">
+                <button type="button" class="mas" aria-label="Agregar una caja de empanaditas de pollo">+</button>
+            </div>
+            <p class="subtotal">Subtotal: S/ 0.00</p>
+        </article>
+        <article class="producto" data-categoria="tortas" data-nombre="Empanaditas de carne (caja de 24)" data-precio="38">
+            <div class="foto"><img src="../img/empanada de carne.jpg" alt="Empanaditas de carne" loading="lazy"></div>
+            <h3>Empanaditas de carne</h3>
+            <p class="desc">Caja de 24 empanadas pequeñas de carne para eventos.</p>
+            <strong class="precio">S/ 38.00</strong>
+            <div class="cantidad">
+                <button type="button" class="menos" aria-label="Quitar una caja de empanaditas de carne">−</button>
+                <input class="num" type="number" min="0" max="99" value="0" inputmode="numeric" aria-label="Cantidad de cajas de empanaditas de carne">
+                <button type="button" class="mas" aria-label="Agregar una caja de empanaditas de carne">+</button>
+            </div>
+            <p class="subtotal">Subtotal: S/ 0.00</p>
+        </article>
+        <article class="producto" data-categoria="tortas" data-nombre="Empanadas de ají de gallina (caja de 6)" data-precio="32">
+            <div class="foto"><img src="../img/empanada aji de gaillna.jpeg" alt="Empanadas de ají de gallina" loading="lazy"></div>
+            <h3>Empanadas de ají de gallina</h3>
+            <p class="desc">Caja de 6 empanadas de ají de gallina.</p>
+            <strong class="precio">S/ 32.00</strong>
+            <div class="cantidad">
+                <button type="button" class="menos" aria-label="Quitar una caja de empanadas de ají de gallina">−</button>
+                <input class="num" type="number" min="0" max="99" value="0" inputmode="numeric" aria-label="Cantidad de cajas de empanadas de ají de gallina">
+                <button type="button" class="mas" aria-label="Agregar una caja de empanadas de ají de gallina">+</button>
+            </div>
+            <p class="subtotal">Subtotal: S/ 0.00</p>
+        </article>
+    </section>
+</main>
+<aside class="presupuesto" aria-label="Tu presupuesto">
+    <div class="presupuesto-info">
+        <span class="presupuesto-items">0 productos</span>
+        <strong class="presupuesto-total">Total: S/ 0.00</strong>
+    </div>
+    <div class="presupuesto-botones">
+        <button type="button" class="vaciar">Vaciar</button>
+        <a class="boton pedir" href="#" aria-disabled="true">Pedir por WhatsApp</a>
+    </div>
+</aside>
+
+<footer>
+    <p>© 2026 La Cremé pastelería. Hechos a mano artesanal</p>
+</footer>
+<script src="../js/catalogo.js"></script>
+</body>
+</html>

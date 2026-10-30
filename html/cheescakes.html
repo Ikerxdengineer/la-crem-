@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cheesecakes | La Cremé</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,500;0,700;1,700&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/chesscakes.css">
+    <link rel="icon" href="../favicon/lacremé.png.png">
+    <script defer src="../js/cheescakes.js"></script>
+</head>
+<body>
+<header class="cabecera">
+    <a class="logo" href="../index.html">
+        <img src="../img/la cremé.png" alt="Logo de La Cremé">
+    </a>
+    <div class="centro">
+        <h1>La Cremé</h1>
+        <p class="lema">Postres caseros para la comunidad de San Martín de Porres</p>
+    </div>
+    <nav class="menu" aria-label="Principal">
+        <a href="../index.html">Inicio</a>
+        <a href="catalogo.html" class="activo">Catálogo</a>
+        <a href="nosotros.html">Nosotros</a>
+        <a href="contacto.html">Contacto</a>
+    </nav>
+</header>
+<main>
+    <div class="filtros" role="group" aria-label="Categorías">
+        <a class="filtro" href="catalogo.html">General</a>
+        <a class="filtro" href="galletas.html">Galletas</a>
+        <a class="filtro" href="cupcakes.html">Cupcakes</a>
+        <a class="filtro activo" href="cheesecakes.html" aria-current="page">Cheesecake</a>
+        <a class="filtro" href="tortas.html">Tortas y Empanadas</a>
+    </div>
+    <section class="productos">
+        <article class="producto" data-categoria="cheesecakes" data-nombre="Cheesecake de Fresa" data-precio="35">
+            <div class="foto"><img src="../img/cheescakes de fresa.webp" alt="Cheesecake de Fresa" loading="lazy"></div>
+            <h3>Cheesecake de Fresa</h3>
+            <p class="desc">Cremoso cheesecake con salsa de fresa y fresas frescas.</p>
+            <strong class="precio">S/ 35.00</strong>
+            <div class="cantidad">
+                <button type="button" class="menos" aria-label="Quitar un Cheesecake de Fresa">−</button>
+                <input class="num" type="number" min="0" max="99" value="0" inputmode="numeric" aria-label="Cantidad de Cheesecake de Fresa">
+                <button type="button" class="mas" aria-label="Agregar un Cheesecake de Fresa">+</button>
+            </div>
+            <p class="subtotal">Subtotal: S/ 0.00</p>
+        </article>
+        <article class="producto" data-categoria="cheesecakes" data-nombre="Cheesecake de Maracuyá" data-precio="35">
+            <div class="foto"><img src="../img/chesscakes de maracuya.jpg" alt="Cheesecake de Maracuyá" loading="lazy"></div>
+            <h3>Cheesecake de Maracuyá</h3>
+            <p class="desc">Cheesecake suave con una deliciosa cobertura de maracuyá.</p>
+            <strong class="precio">S/ 35.00</strong>
+            <div class="cantidad">
+                <button type="button" class="menos" aria-label="Quitar un Cheesecake de Maracuyá">−</button>
+                <input class="num" type="number" min="0" max="99" value="0" inputmode="numeric" aria-label="Cantidad de Cheesecake de Maracuyá">
+                <button type="button" class="mas" aria-label="Agregar un Cheesecake de Maracuyá">+</button>
+            </div>
+            <p class="subtotal">Subtotal: S/ 0.00</p>
+        </article>
+        <article class="producto" data-categoria="cheesecakes" data-nombre="Cheesecake de Chocolate" data-precio="40">
+            <div class="foto"><img src="../img/chescakes de chocolate.jpg" alt="Cheesecake de Chocolate" loading="lazy"></div>
+            <h3>Cheesecake de Chocolate</h3>
+            <p class="desc">Cremoso cheesecake de chocolate con cobertura de chocolate.</p>
+            <strong class="precio">S/ 40.00</strong>
+            <div class="cantidad">
+                <button type="button" class="menos" aria-label="Quitar un Cheesecake de Chocolate">−</button>
+                <input class="num" type="number" min="0" max="99" value="0" inputmode="numeric" aria-label="Cantidad de Cheesecake de Chocolate">
+                <button type="button" class="mas" aria-label="Agregar un Cheesecake de Chocolate">+</button>
+            </div>
+            <p class="subtotal">Subtotal: S/ 0.00</p>
+        </article>
+        <article class="producto" data-categoria="cheesecakes" data-nombre="Cheesecake de Oreo" data-precio="38">
+            <div class="foto"><img src="../img/chescakes de oreo.jpg" alt="Cheesecake de Oreo" loading="lazy"></div>
+            <h3>Cheesecake de Oreo</h3>
+            <p class="desc">Cheesecake de vainilla con base y trozos de galleta Oreo.</p>
+            <strong class="precio">S/ 38.00</strong>
+            <div class="cantidad">
+                <button type="button" class="menos" aria-label="Quitar un Cheesecake de Oreo">−</button>
+                <input class="num" type="number" min="0" max="99" value="0" inputmode="numeric" aria-label="Cantidad de Cheesecake de Oreo">
+                <button type="button" class="mas" aria-label="Agregar un Cheesecake de Oreo">+</button>
+            </div>
+            <p class="subtotal">Subtotal: S/ 0.00</p>
+        </article>
+        <article class="producto" data-categoria="cheesecakes" data-nombre="Cheesecake de Arándanos" data-precio="38">
+            <div class="foto"><img src="../img/chesscakes de arandanos.jpg" alt="Cheesecake de Arándanos" loading="lazy"></div>
+            <h3>Cheesecake de Arándanos</h3>
+            <p class="desc">Cheesecake cremoso acompañado de una dulce salsa de arándanos.</p>
+            <strong class="precio">S/ 38.00</strong>
+            <div class="cantidad">
+                <button type="button" class="menos" aria-label="Quitar un Cheesecake de Arándanos">−</button>
+                <input class="num" type="number" min="0" max="99" value="0" inputmode="numeric" aria-label="Cantidad de Cheesecake de Arándanos">
+                <button type="button" class="mas" aria-label="Agregar un Cheesecake de Arándanos">+</button>
+            </div>
+            <p class="subtotal">Subtotal: S/ 0.00</p>
+        </article>
+        <article class="producto" data-categoria="cheesecakes" data-nombre="Cheesecake Clásico" data-precio="32">
+            <div class="foto"><img src="../img/chesscakes.webp" alt="Cheesecake Clásico" loading="lazy"></div>
+            <h3>Cheesecake Clásico</h3>
+            <p class="desc">Cheesecake tradicional, suave y cremoso con base de galleta.</p>
+            <strong class="precio">S/ 32.00</strong>
+            <div class="cantidad">
+                <button type="button" class="menos" aria-label="Quitar un Cheesecake Clásico">−</button>
+                <input class="num" type="number" min="0" max="99" value="0" inputmode="numeric" aria-label="Cantidad de Cheesecake Clásico">
+                <button type="button" class="mas" aria-label="Agregar un Cheesecake Clásico">+</button>
+            </div>
+            <p class="subtotal">Subtotal: S/ 0.00</p>
+        </article>
+    </section>
+</main>
+<aside class="presupuesto" aria-label="Tu presupuesto">
+    <div class="presupuesto-info">
+        <span class="presupuesto-items">0 productos</span>
+        <strong class="presupuesto-total">Total: S/ 0.00</strong>
+    </div>
+    <div class="presupuesto-botones">
+        <button type="button" class="vaciar">Vaciar</button>
+        <a class="boton pedir" href="#" aria-disabled="true">Pedir por WhatsApp</a>
+    </div>
+</aside>
+<footer>
+    <p>© 2026 La Cremé pastelería. Hechos a mano artesanal</p>
+</footer>
+<script src="../js/catalogo.js"></script>
+</body>
+</html>

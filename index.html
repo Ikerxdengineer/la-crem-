@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="La Cremé: pasteles y postres artesanales para cada ocasión especial.">
+    <title>La Cremé | Repostería artesanal</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,500;0,700;1,700&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="icon" href="favicon/lacremé.png.png">
+    <script defer src="js/index.js"></script>
+</head>
+<body>
+<main>
+    <div class="portada">
+        <a class="logo" href="index.html">
+            <img src="img/la cremé.png" alt="Logo de La Cremé">
+        </a>
+        <nav class="menu" aria-label="Principal">
+            <a href="index.html" class="activo">Inicio</a>
+            <a href="html/catalogo.html">Catálogo</a>
+            <a href="html/nosotros.html">Nosotros</a>
+            <a href="html/contacto.html">Contacto</a>
+        </nav>
+        <div class="texto">
+            <h1>Pasteles y postres artesanales para cada ocasión especial</h1>
+            <a class="boton boton-grande" href="html/catalogo.html">Ver catálogo &gt;</a>
+        </div>
+        <section class="carrusel" role="region" aria-roledescription="carrusel" aria-label="Nuestros postres">
+            <div class="marco">
+                <figure class="slide activa">
+                    <img src="img/torta.jpg" alt="Torta de chocolate de La Cremé">
+                </figure>
+                <figure class="slide" aria-hidden="true">
+                    <img src="img/chesscakes.webp" alt="Cheesecake de fresa de La Cremé">
+                </figure>
+                <figure class="slide" aria-hidden="true">
+                    <img src="img/Cupcakes.webp" alt="Cupcakes de La Cremé">
+                </figure>
+            </div>
+            <div class="puntos">
+                <button type="button" class="punto activo" aria-label="Ver imagen 1" aria-current="true"></button>
+                <button type="button" class="punto" aria-label="Ver imagen 2" aria-current="false"></button>
+                <button type="button" class="punto" aria-label="Ver imagen 3" aria-current="false"></button>
+            </div>
+        </section>
+        <section class="info" aria-label="Lo que nos distingue">
+            <article class="dato">
+                <div class="icono">
+                    <svg viewBox="0 0 64 64" width="44" height="44" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                        <path d="M32 6c-2 3 0 5 2 6"/>
+                        <path d="M20 30c-4 0-6-4-4-7 2-4 7-3 9-6 2-4 8-4 10 0 3 2 8 1 9 6 1 3-1 7-5 7z"/>
+                        <path d="M17 30h30l-4 22H21z"/>
+                        <path d="M26 30l2 22M32 30v22M38 30l-2 22"/>
+                    </svg>
+                </div>
+                <h2>100% Artesanales</h2>
+                <p>Recetas tradicionales hechas con ingredientes de alta calidad.</p>
+            </article>
+            <article class="dato">
+                <div class="icono">
+                    <svg viewBox="0 0 64 64" width="44" height="44" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                        <path d="M6 18h30v26H6z"/>
+                        <path d="M36 26h12l8 10v8H36z"/>
+                        <circle cx="18" cy="46" r="5" fill="#fdeef3"/>
+                        <circle cx="46" cy="46" r="5" fill="#fdeef3"/>
+                    </svg>
+                </div>
+                <h2>Delivery</h2>
+                <p>Llevamos tus pedidos a la puerta de tu casa con todo el cuidado.</p>
+            </article>
+        </section>
+    </div>
+    <section class="dudas">
+        <p><strong>¿Tienes dudas?</strong> Escríbenos por acá</p>
+        <span class="flecha" aria-hidden="true"></span>
+        <a class="boton" href="html/contacto.html">Contacto &gt;</a>
+    </section>
+    <section class="nosotros" id="nosotros">
+        <h2>Quiénes somos</h2>
+        <p>Somos una pequeña repostería dedicada a ofrecer productos preparados de manera artesanal, para la comunidad de San Martín de Porres.</p>
+        <p>Como dueños de nuestra repostería nos esforzamos por ofrecer el mejor servicio y productos de calidad.</p>
+    </section>
+</main>
+<footer>
+    <p>© 2026 La Cremé pastelería. Hechos a mano artesanal</p>
+</footer>
+</body>
+</html>
